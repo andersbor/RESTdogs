@@ -34,7 +34,7 @@
             return true;
         }
 
-        public Dog? DeleteDog(int id)
+        public Dog? RemoveDog(int id)
         {
             var dog = GetDog(id);
             if (dog == null)
