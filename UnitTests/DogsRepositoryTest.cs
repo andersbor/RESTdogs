@@ -4,7 +4,7 @@ namespace UnitTests
 {
     public class DogsRepositoryTest
     {
-        private DogsRepositoryList repo;
+        private IDogsRepositoryList repo;
         Dog dogBuddy = new Dog { Name = "Buddy", Weight = 30 };
         Dog dogAlly = new Dog { Name = "Ally", Weight = 25 };
         Dog dogFidel = new Dog { Name = "Fidel", Weight = 40 };

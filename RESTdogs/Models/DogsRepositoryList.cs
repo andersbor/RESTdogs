@@ -1,6 +1,6 @@
 ﻿namespace RESTdogs.Models
 {
-    public class DogsRepositoryList
+    public class DogsRepositoryList : IDogsRepositoryList
     {
         private List<Dog> dogs = new List<Dog>();
         private int nextId = 1;
